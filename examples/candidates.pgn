@@ -1,0 +1,169 @@
+[Event "World Chess Candidates 2018"]
+[Site "Berlin"]
+[Date "2018.03.10"]
+[Round "1"]
+[White "Kramnik, Vladimir"]
+[Black "Grischuk, Alexander"]
+[Result "1-0"]
+[ECO "A48"]
+[WhiteElo "2800"]
+[BlackElo "2767"]
+[Annotator "TA"]
+[PlyCount "95"]
+[EventDate "2018.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "GER"]
+
+{[%evp 14,95,0,0,0,0,0,0,10,10,6,12,10,12,8,-8,9,0,11,0,2,0,14,0,0,0,0,-8,0,0,
+0,0,47,53,88,55,120,114,120,28,30,51,54,39,82,31,56,33,55,51,52,53,54,46,104,
+80,87,24,32,45,42,24,88,95,100,97,113,110,113,112,110,113,210,211,232,226,215,
+210,326,314,319,296,475,466]} 1. d4 Nf6 2. Nf3 g6 3. b3 c5 4. dxc5 Qa5+ 5. Nbd2
+Qxc5 6. Bb2 {A48: 1 d4 Nf6 2 Nf3 g6: Torre, London and Colle Systems} Bg7 7. e3
+O-O 8. c4 {LiveBook: 5 Games. The position is equal.} b6 $146 ({Predecessor:} 
+8... d6 9. Be2 Nbd7 10. O-O b6 11. Rc1 {1-0 (94) Grachev,B (2655)-Chatalbashev,
+B (2552) Astana 2017}) 9. Be2 Bb7 10. O-O Qc7 11. Rc1 d6 12. Nb1 Nbd7 13. Nc3
+Rac8 14. Rc2 Qb8 15. Qa1 a6 16. Rd2 Rfe8 17. Rfd1 Ba8 18. Ng5 {[%cal Bf3g5,
+Bg5h3,Bh3f4][%mdl 32]} Rc5 19. Nh3 b5 20. Nf4 bxc4 21. Bxc4 Rg5 22. Ncd5 Ne5
+23. Be2 $36 {[%mdl 2048] White has good play.} Ne4 24. Rd4 Nc5 (24... Nf6 $1
+$14) 25. h4 $16 Rf5 26. e4 (26. g4 $16 Rxf4 27. exf4 (27. Rxf4 e6 $16)) 26...
+Rxf4 $1 $11 ({Don't go for} 26... Nxe4 $2 27. Rxe4 Bh6 28. Rb4 $18 (28. Bxa6
+Rxf4 29. Rxf4 Bxd5 $16)) 27. Nxf4 Nxe4 28. Nd5 ({Reject} 28. Bxa6 Ng4 $11)
+28... Nc5 29. Rb4 ({White should play} 29. h5 $16) 29... Qa7 $14 30. Ne3 a5 31.
+Rb5 {Hoping for Bd4.} Ne6 32. Rxe5 dxe5 33. Bxe5 Qc5 ({Black should try} 33...
+Bxe5 $14 34. Qxe5 Qc5) 34. Bxg7 $16 Nxg7 35. Qd4 (35. Rc1 $16 Qd6 36. Qc3)
+35... Qxd4 $11 36. Rxd4 Bc6 $1 37. Rd2 Rb8 (37... Ne6 $11) 38. Rc2 $1 $16 {
+[%cal Rc2c6]} Be8 39. Rc7 Kf8 {[#]} 40. Ra7 $1 a4 41. bxa4 Rb1+ 42. Kh2 Rb4 (
+42... Rb2 $16 {keeps fighting.} 43. Bc4 Rxf2) 43. a5 $18 {[%cal Ba4a5,Ba5a6]
+[%mdl 32]} Rxh4+ {[#]} 44. Kg1 $1 Ra4 45. Bc4 Bc6 (45... Ne6 {was worth a try.}
+46. Bb3 Rd4) 46. Rc7 Be8 47. a6 Nh5 $2 (47... Ra5 48. a7 Ne6 49. Bxe6 fxe6) 48.
+Nd5 {Precision: White = 49%, Black = 51%.} 1-0
+
+[Event "World Chess Candidates 2018"]
+[Site "Berlin"]
+[Date "2018.03.10"]
+[Round "1"]
+[White "Aronian, Levon"]
+[Black "Ding, Liren"]
+[Result "1/2-1/2"]
+[ECO "A18"]
+[WhiteElo "2794"]
+[BlackElo "2769"]
+[Annotator "TA"]
+[PlyCount "43"]
+[EventDate "2018.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "GER"]
+
+{[%evp 13,43,9,50,-8,15,0,19,0,0,1,47,42,32,28,60,67,64,12,9,-6,0,0,0,0,123,30,
+30,0,122,0,30,-4]} 1. c4 Nf6 2. Nc3 e6 3. e4 d5 4. e5 d4 5. exf6 dxc3 6. bxc3
+Qxf6 7. d4 b6 8. h4 {A18: English Opening: Flohr-Mikenas System (1 c4 Nf6 2
+Nc3 e6 3 e4)} (8. Be2 $14) (8. Be2 Bb7 9. Bf3 Bxf3 10. Nxf3 Bd6 11. Qa4+ c6 12.
+O-O O-O 13. Rb1 Bc7 14. Re1 Rc8 15. Kh1 Qf5 {1/2-1/2 (26) Svidler,P (2763)
+-Ding,L (2774) Palma de Mallorca 2017}) 8... Bb7 9. Bg5 Qf5 10. Bd3 $146 {
+The position is equal.} ({Predecessor:} 10. Rh3 h6 11. Bd3 Qa5 12. Bd2 Nd7 13.
+Nf3 O-O-O 14. Kf1 Be7 15. h5 Nc5 {1-0 (31) Budczies,J-Vogt,L (2500) Bochum 1990
+}) 10... Qa5 11. Kf1 Nc6 12. Rb1 f6 (12... Qxc3 13. d5 $15) 13. Bd2 $36 {
+[%mdl 2048] White has the initiative.} O-O-O 14. a4 $1 e5 15. c5 (15. Rh3 $14)
+15... Bxc5 $1 $11 16. Rb5 Qa6 17. Rh3 Bxd4 $1 {Hoping for ...Bc5.} 18. Be2 Rd6
+{[#]} ({Wrong is} 18... Bc5 $2 19. Rxc5 $1 {[%mdl 512]} Rxd2 20. Qxd2 $18) (
+18... Ba8 $1 $11 {keeps the balance.}) 19. Rb1 ({And not} 19. cxd4 Nxd4 20. Bd3
+Ne6 $15) ({Better is} 19. Rb2 $1 $16 Qa5 20. cxd4) 19... Qa5 $1 {[%cal Ra5d5]
+Threatens to win with ...Qd5.} 20. Rb5 (20. cxd4 $11 Qd5 21. Nf3) 20... Qa6 $16
+21. Rb1 (21. cxd4 Nxd4 22. Bd3 Ne6 $15) ({White should try} 21. Rb2 $16 Qa5 22.
+cxd4) 21... Qa5 $1 $11 {[%cal Ra5d5] ...Qd5 is the strong threat.} 22. Rb5 {
+Precision: White = 39%, Black = 63%.} 1/2-1/2
+
+[Event "World Chess Candidates 2018"]
+[Site "Berlin"]
+[Date "2018.03.10"]
+[Round "1"]
+[White "Caruana, Fabiano"]
+[Black "So, Wesley"]
+[Result "1-0"]
+[ECO "E07"]
+[WhiteElo "2784"]
+[BlackElo "2799"]
+[Annotator "TA"]
+[PlyCount "65"]
+[EventDate "2018.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "GER"]
+
+{[%evp 21,65,2,18,12,0,0,18,13,23,11,12,23,10,18,12,1,26,23,18,26,78,75,64,66,
+71,70,141,136,110,109,132,121,120,112,107,119,210,153,427,425,1274,1272,1157,
+1145,1849,1729]} 1. d4 Nf6 2. c4 e6 3. g3 Bb4+ 4. Bd2 Be7 5. Bg2 d5 6. Nf3 O-O
+7. O-O c6 8. Qb3 Nbd7 9. Bf4 a5 {E07: Closed Catalan: Main Line (5 Nf3 0-0 6
+0-0 Nbd7)} 10. Rd1 Nh5 $146 ({Predecessor:} 10... b5 11. c5 Ba6 12. Qc2 b4 13.
+Bf1 Ne4 14. Nbd2 f5 15. Ne5 Nxe5 16. Bxe5 Nxd2 17. Qxd2 {1/2-1/2 (35)
+Mamedyarov,S (2775)-Kovalenko,I (2644) Riga 2013}) 11. Bc1 Nhf6 {LiveBook: 3
+Games. The position is equal.} 12. Nbd2 b5 13. c5 b4 14. Qc2 a4 15. Re1 {[#]}
+e5 $1 {[%mdl 512]} 16. Nxe5 (16. dxe5 Ng4) 16... Nxe5 17. dxe5 Nd7 18. Nf3 Bxc5
+19. Ng5 {[%csl Gg5][%cal Rc2h7]} g6 20. Bf4 {Hoping for e6.} Qb6 (20... Qe7 $11
+{keeps the balance.}) 21. e4 $16 b3 22. axb3 axb3 23. Qe2 $1 Ba6 ({Black
+should play} 23... Rxa1 $1 $14 24. Rxa1 Nxe5) 24. Qf3 $1 Bc4 25. Rxa8 Rxa8 26.
+e6 dxe4 27. exf7+ $40 {[%mdl 128] White wants a kill.} Bxf7 28. Nxe4 Bd4 {[#]}
+(28... Re8 $16) 29. Nd6 $1 $18 {[%cal Rd6f7]} Bd5 $2 (29... Nf6 $16 {was
+necessary.}) 30. Qe2 {Black must now prevent Bxd5+.White is clearly winning.}
+Nf8 {[#]} (30... Qc5 $142 31. Rc1 Bxf2+ 32. Qxf2 Qxf2+ 33. Kxf2 Bxg2 34. Kxg2
+Ra2) 31. Bxd5+ $1 cxd5 32. Qf3 Qa5 33. Re7 {Precision: White = 89%, Black =
+31%.} 1-0
+
+[Event "World Chess Candidates 2018"]
+[Site "Berlin"]
+[Date "2018.03.10"]
+[Round "1"]
+[White "Karjakin, Sergey"]
+[Black "Mamedyarov, Shakhriyar"]
+[Result "0-1"]
+[ECO "C60"]
+[WhiteElo "2763"]
+[BlackElo "2809"]
+[Annotator "TA"]
+[PlyCount "142"]
+[EventDate "2018.??.??"]
+[EventType "tourn"]
+[EventRounds "14"]
+[EventCountry "GER"]
+
+{[%evp 12,142,31,29,41,46,39,37,45,32,26,33,35,-14,-12,-5,-19,-35,3,0,1,-14,
+-16,-14,0,0,0,0,0,0,0,0,0,-8,-2,-2,-3,-16,-3,-10,-12,-33,-39,-126,-75,-124,
+-114,-103,-105,-124,-122,-110,-60,-124,-82,-112,-115,-113,-113,-113,-110,-126,
+-113,-126,-18,-31,-6,-8,-6,-6,-6,-6,0,-6,-6,-6,-6,-60,-60,-75,-75,-75,-56,-75,
+-56,-56,-57,-213,-212,-759,-423,-228,-377,-1089,-1094,-333,-6,-41,-46,-49,-49,
+-42,-6,-7,-2,-1131,-602,-881,-831,-2425,-1160,-1950,-432,-3673,-1796,-5684,
+-29945,-29947,-29944,-29947,-29949,-29942,-12850,-1569,-1283,-29960,-12275,
+-29983,-29985,-29987,-29988,-29988,-29989]} 1. e4 e5 2. Nf3 Nc6 3. Bb5 g6 4. c3
+{[%cal Bc2c3,Bc3d4][%mdl 32]} a6 (4... d6 5. d4 Bd7 6. O-O Bg7 7. Be3 Nf6 8.
+dxe5 dxe5 9. Nbd2 O-O 10. Re1 Re8 11. h3 h6 12. a4 a6 13. Bc4 b6 14. b4 Qc8 15.
+a5 bxa5 16. bxa5 {1/2-1/2 (24) Tari,A (2597)-Kamsky,G (2677) Moscow 2018}) 5.
+Bxc6 dxc6 6. d4 {C60: Ruy Lopez: Unusual Black 3rd moves and 3...g6} exd4 7.
+cxd4 {LiveBook: 5 Games} Bg4 8. Qb3 {White is slightly better.} Bxf3 9. gxf3
+Bg7 10. Be3 $146 ({Predecessor:} 10. Nc3 Ne7 11. Ne2 O-O 12. h4 {1/2-1/2 (37)
+Tobler,P (2154)-Egner,M (2188) ICCF email 2016}) 10... Ne7 11. Nc3 Bxd4 12.
+Bxd4 Qxd4 13. Qxb7 O-O 14. Qxc7 Rab8 (14... Nd5 $5 15. exd5 Qd3 $11) 15. O-O
+Rxb2 16. Qxe7 Qxc3 17. Kg2 Rc2 18. Rad1 Rxa2 {Hoping for ...Ra3.} 19. Rc1 Rc2
+20. Rxc2 Qxc2 $11 {[%mdl 4096] Endgame KQR-KQR} 21. Ra1 Qc4 22. Qb7 Qb5 23.
+Qxa6 Qg5+ 24. Kf1 Qf6 25. Kg2 Rb8 26. Ra5 Rb3 $36 {[%mdl 2048] Black has some
+pressure.} 27. Qc8+ ({White should try} 27. Qe2 $1 $15) 27... Kg7 $17 28. Qg4
+Rb5 $1 {[%cal Rb5a5]} 29. Rxb5 cxb5 {KQ-KQ} 30. Qd7 Qg5+ 31. Kf1 Qe5 32. h4 (
+32. Qb7 $15) 32... b4 {[%cal Bb5b4,Bb4b3][%mdl 32] Strongly threatening ...b3.}
+33. Qb7 Qc3 34. e5 b3 35. Kg2 Qc4 $1 36. Qb6 h6 37. Kg3 Qd5 (37... h5 $1 $17
+38. Qb7 Kg8 39. Qb8+ Kg7) 38. f4 $11 Kh7 39. Qb8 Qc4 {Black wants to play ...
+Qc3+.} 40. f3 $1 Qc3 41. Qf8 $1 Qc4 42. Qb8 Kg7 {White should prevent ...Qc3.}
+43. Qb6 Qd5 44. Qb8 ({White should play} 44. Qb4 $1 $11) 44... Qd1 $15 {
+White must now prevent ...Qe1+.} 45. Qb7 Qg1+ 46. Kh3 Qe3 {Threatens to win
+with ...b2.} 47. Kg2 Qe2+ 48. Kg3 Qe1+ 49. Kg2 $2 {[#]} ({White has to play} 
+49. Kh3 $1 $15) 49... Qe3 $1 $19 50. Qb4 $2 {[#]} (50. Kf1) 50... g5 $1 51.
+hxg5 (51. fxg5 $142 hxg5 52. hxg5) 51... hxg5 52. fxg5 $2 (52. e6 Qe2+ 53. Kg3
+gxf4+ 54. Kg4 Qxe6+ 55. Kxf4) 52... Qe2+ 53. Kg3 Qxe5+ $2 (53... b2 $19 54. e6
+Qe5+ 55. Kg2 fxe6) 54. Kf2 Qh2+ 55. Ke3 Qg1+ 56. Kf4 $1 Qc1+ 57. Kg4 $1 Qe3 {
+...Kg6 is the strong threat.} 58. Kg3 $2 {[%mdl 8192]} (58. f4 $11) 58... Qxg5+
+59. Kf2 Qd5 60. Ke3 Kg6 (60... Kf6 $142 61. Ke2 Ke6) 61. Ke2 Kf6 (61... Kf5
+$142 62. Qg4+ Ke5) 62. Ke3 (62. Kf2 $142 Qd3 63. Kg3) 62... Ke6 63. Qb6+ Kd7
+64. Qa7+ Kc6 65. Qa6+ Kc5 66. Qa4 Qc4 67. Qa5+ Kc6 68. Qa1 Kb5 69. Qb2 Kb4 {
+Black mates.} ({Inferior is} 69... Qc2 70. Qxc2 bxc2 71. Kd2 $11) 70. Kd2 Qf4+
+71. Ke1 Qh4+ {Precision: White = 37%, Black = 69%.} 0-1
+

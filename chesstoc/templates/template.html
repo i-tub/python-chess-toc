@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!-- This is a Jinja template file. See http://jinja.pocoo.org/ for Jinja documentation. -->
+<html>
+<head>
+    <title>Games from {{ args.pgn_file }}</title>
+    {% if args.css %}
+        <link rel="stylesheet" href="chess-index.css" type="text/css">
+    {% else %}
+    <style type="text/css">
+    {{ get_css() }}
+    </style>
+    {% endif %}
+</head>
+
+<body>
+<table>
+
+{% for game in games %}
+    {{ "<tr>" if game.index % args.columns == 1 }}
+    <td style="width: {{ 100.0 / args.columns }}%">
+    <span class="player">{{ game.BlackResult }} {{ game.Black }} ({{ game.BlackElo or 'UNR' }})</span><br/>
+    <img src="{{ game.svg_combined }}" width="100%" /><br/>
+    <span class="player">{{ game.WhiteResult }} {{ game.White }} ({{ game.WhiteElo or 'UNR' }})</span><br/>
+    {{ game.index }} {{ game.Event }} {{ game.Date }} <br/>
+    {{ game.ECO }} {{ game.Opening }}
+    </td>
+    {{ "</tr>" if game.index % args.columns == 0 or loop.last }}
+{% endfor %}
+
+</table>
+</body>
+</html>
