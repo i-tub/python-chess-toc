@@ -156,7 +156,7 @@ def write_html(games, args):
     else:
         loader = jinja2.PackageLoader('chesstoc')
     env = jinja2.Environment(loader=loader)
-    template = env.get_template('template.html')
+    template = env.get_template(args.template or 'template.html')
     with open(args.html, 'w') as fh:
         fh.write(
             template.render({

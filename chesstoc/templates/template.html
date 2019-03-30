@@ -1,5 +1,10 @@
 <!DOCTYPE html>
-<!-- This is a Jinja template file. See http://jinja.pocoo.org/ for Jinja documentation. -->
+{# This is a Jinja template file. See http://jinja.pocoo.org/ for Jinja documentation. #}
+<!-- This file was generated using python-chess-toc -->
+{% macro field(game, name) -%}
+<span class="{{name}}">{{ game[name] }}</span>
+{%- endmacro %}
+
 <html>
 <head>
     <title>Games from {{ args.pgn_file }}</title>
@@ -17,13 +22,13 @@
 
 {% for game in games %}
     {{ "<tr>" if game.index % args.columns == 1 }}
-    <td style="width: {{ 100.0 / args.columns }}%">
-    <span class="player">{{ game.BlackResult }} {{ game.Black }} ({{ game.BlackElo or 'UNR' }})</span><br/>
+    <td style="width: {{ 100.0 / args.columns }}%"><div>
+    {{ field(game, 'index') }}</span><span class="player">{{ field(game, 'BlackResult') }} {{ field(game, 'Black') }} ({{ game.BlackElo or 'UNR' }})</span><br/>
     <img src="{{ game.svg_combined }}" width="100%" /><br/>
-    <span class="player">{{ game.WhiteResult }} {{ game.White }} ({{ game.WhiteElo or 'UNR' }})</span><br/>
-    {{ game.index }} {{ game.Event }} {{ game.Date }} <br/>
-    {{ game.ECO }} {{ game.Opening }}
-    </td>
+    <span class="player">{{ field(game, 'WhiteResult') }} {{ field(game, 'White') }} ({{ game.WhiteElo or 'UNR' }})</span><br/>
+    {{ field(game, 'Event') }} {{ field(game, 'Date') }} <br/>
+    {{ field(game, 'ECO') }} {{ field(game, 'Opening') }}
+    </div></td>
     {{ "</tr>" if game.index % args.columns == 0 or loop.last }}
 {% endfor %}
 
