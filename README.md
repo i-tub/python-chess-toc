@@ -11,7 +11,7 @@ For example,
 
 analyzes the games from candidates.pgn, spending one second per move, and produces an HTML file with a two-column table that looks like this:
 
-![TOC for candidates.pgn](examples/screenshot.png)
+![TOC for candidates.pgn](https://raw.githubusercontent.com/i-tub/python-chess-toc/master/examples/screenshot.png)
 
 ## Dependencies
 * python 3
