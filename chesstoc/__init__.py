@@ -5,7 +5,7 @@ diagram of the final position of the game.
 
 __author__ = "Ivan Tubert-Brohman"
 __email__ = "ivan.tubert@gmail.com"
-__version__ = "0.1"
+__version__ = "0.1.1"
 
 import itertools
 import json

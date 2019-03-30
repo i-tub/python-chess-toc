@@ -1,0 +1,3 @@
+include chesstoc/eco/eco.json
+include chesstoc/templates/template.html
+include chesstoc/templates/chesstoc.css

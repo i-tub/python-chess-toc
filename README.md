@@ -13,6 +13,10 @@ analyzes the games from candidates.pgn, spending one second per move, and produc
 
 ![TOC for candidates.pgn](https://raw.githubusercontent.com/i-tub/python-chess-toc/master/examples/screenshot.png)
 
+## Installation
+
+    pip install python-chess-toc
+
 ## Dependencies
 * python 3
 * python-chess
