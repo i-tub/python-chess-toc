@@ -39,14 +39,14 @@ def analyze_game(game, engine, time_per_move=1.0, verbose=False):
     :param game: game to analyze
     :type game: chess.pgn.Game
 
-    :param game: engine to use for analysis
-    :type game: chess.engine.SimpleEngine
+    :param engine: engine to use for analysis
+    :type engine: chess.engine.SimpleEngine
 
     :param time_per_move: time to spend on each full move (2 plies), in seconds
     :type time_per_move: float
 
     :return: the evaluation for every position in the game's mainline,
-        in full points from White's point of view.
+        in pawns, from White's point of view
     :rtype: list of float
     """
     limit = chess.engine.Limit(time=time_per_move / 2)
@@ -90,7 +90,7 @@ def write_plot(scores, filename, scale=8.0):
     game.
 
     :param scores: evaluation for every position in the game's mainline,
-            in full points from White's point of view.
+            in pawns, from White's point of view
     :type scores: list of float
 
     :param filename: file to write
@@ -129,7 +129,7 @@ def write_board(game, filename, size=SIZE):
     :param filename: file to write
     :type filename: str
 
-    :param size: size of the figure, passed to chess.svg.board().
+    :param size: size of the figure, passed to chess.svg.board()
     :type size: int
     """
     with open(filename, mode='w') as fh:
@@ -142,13 +142,13 @@ def compose_svg(svg_board, svg_plot, svg_combined):
     Create a combined SVG in which the board image is put in the background of
     the axes area of the plot image.
 
-    :param svg_board: filename of existing board image.
+    :param svg_board: filename of existing board image
     :type svg_board: str
 
-    :param svg_plot: filename of existing plot image.
+    :param svg_plot: filename of existing plot image
     :type svg_plot: str
 
-    :param svg_combined: filename of combined image, to be written.
+    :param svg_combined: filename of combined image, to be written
     :type svg_combined: str
     """
     scale = TOP_RIGHT_MARGIN - LEFT_BOTTOM_MARGIN
